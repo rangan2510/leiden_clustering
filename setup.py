@@ -9,7 +9,7 @@ setup(
     packages=["leiden_clustering"],
     python_requires=">=3.7",
     package_data={"": ["LICENSE", "*.md", "*.ipynb", "*.yml"]},
-    install_requires=["numpy", "scanpy", "scikit-learn", "umap", "leidenalg"],
+    install_requires=["numpy", "scanpy", "scikit-learn", "umap-learn", "leidenalg"],
     author="Miquel Anglada Girotto",
     author_email="miquelangladagirotto@gmail.com",
     description="Cluster your data matrix with the Leiden algorithm.",
